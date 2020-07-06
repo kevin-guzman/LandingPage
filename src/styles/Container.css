@@ -1,7 +1,7 @@
 .Container{
     display: flex;
     background: rgb(35,24,116);
-    background: linear-gradient(180deg, rgba(35,24,116,0.9) 0%, rgba(66,54,178,0.7) 100%);
+    background: linear-gradient(180deg, #231874,#4236B2);
     flex: content;
     flex-direction: column;
 }

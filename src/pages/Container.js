@@ -43,7 +43,7 @@ function Container() {
 
 const Styles={
     textButton:{
-        color:'white',
+        color:'#DCDAEF',
         fontSize:'100%'
     }
 }
