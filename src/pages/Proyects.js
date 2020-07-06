@@ -19,7 +19,7 @@ let Proyects = (props) => {
         return (
             <Cards
                 Proyects={ProyectsList}
-                //ProyectsType='movil'
+                ProyectsType={props.proyectType}
             />
         )
     }

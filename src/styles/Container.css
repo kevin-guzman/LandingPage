@@ -1,7 +1,7 @@
 .Container{
     display: flex;
     background: rgb(35,24,116);
-    background: linear-gradient(180deg, rgba(35,24,116,1) 0%, rgba(66,54,178,1) 100%);
+    background: linear-gradient(180deg, rgba(35,24,116,0.9) 0%, rgba(66,54,178,0.7) 100%);
     flex: content;
     flex-direction: column;
 }
@@ -18,17 +18,34 @@
     width: 150pt;
     height: 150pt;
     border-radius: 100%;
+    margin-top: 2%;
 }
 .Header_Link{
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 32%;
+    margin-left: 32%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     font-size: 80%;
+    margin-top: 4%;
 }
 .Body{
     margin-right: 10%;
     margin-left: 10%;
+}
+.btn {
+    background: #ededed;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* font-size: 15px; */
+    font-size: 80%;
+    opacity: 1;
+    transition: opacity 300ms ease;
+    /* color: white; */
+}
+.touched {
+    opacity: 0.5;
 }

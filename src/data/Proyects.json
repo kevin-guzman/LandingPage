@@ -6,7 +6,7 @@
     },
     {
         "title":"Servo",
-        "proyectType":"electronic",
+        "proyectType":"hardware",
         "description": "Servo es un proyecto muy util porque se utilizó para su abuela malparida xd"
     },
     {
@@ -18,5 +18,10 @@
         "title":"Listaa de tareas",
         "proyectType":"movil",
         "description": "Listaa de tareas es un proyecto muy util porque se utilizó para su abuela malparida xd"
+    },
+    {
+        "title":"Proyecto grado",
+        "proyectType":"educacion",
+        "description": "Proyecto de grado es un proyecto muy util porque se utilizó para su abuela malparida xd"
     }
 ]
