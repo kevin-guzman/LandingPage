@@ -1,0 +1,34 @@
+.Container{
+    display: flex;
+    background: rgb(35,24,116);
+    background: linear-gradient(180deg, rgba(35,24,116,1) 0%, rgba(66,54,178,1) 100%);
+    flex: content;
+    flex-direction: column;
+}
+.Header{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 3%;
+    font-family: sans-serif;
+    font-size: 160%;
+    color: #DCDAEF;
+}
+.Header_Photo{
+    width: 150pt;
+    height: 150pt;
+    border-radius: 100%;
+}
+.Header_Link{
+    margin-right: 30%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 80%;
+}
+.Body{
+    margin-right: 10%;
+    margin-left: 10%;
+}

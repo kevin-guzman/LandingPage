@@ -9,6 +9,7 @@ import {
   BrowserRouter
 } from "react-router-dom";
 import Proyects from '../src/pages/Proyects'
+import Home from './pages/Container'
 import ProyectsInfo from '../src/pages/ProyectsInfo';
 import NotFound from './pages/NotFound';
 
@@ -16,6 +17,7 @@ let App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        <Route exact path="/" component={Home}/>
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/proyects/info"  component={ProyectsInfo} />
         <Route path="*" />
