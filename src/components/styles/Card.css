@@ -1,0 +1,65 @@
+.card {
+    border: none;
+    border-radius: 8px; /* 8 */
+    background: linear-gradient(to bottom left, #7a3bade8, #4f61b8e0);
+    /* margin-top: 30px;
+    flex: 1; */
+}
+.Proyects-User-Info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+.Proyects-Card {
+    max-height: 310px;
+    max-width: 220px ;
+    /* align-self: center; */
+}
+.Proyects-Card-Info {
+    /* padding-left: 10; */
+    /* padding-right: 15px; */
+    align-self: center;
+    flex: 1;
+}
+.Proyects-Card-Info h1{
+    font-size: 23px;
+    color: white;
+}
+.Proyects-Card-Info p{
+    font-size: 11px;
+    color: white;
+}
+.Proyects-Add {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    height: 60px;
+}
+.img-contenedor div {
+    -webkit-transition: all .2s ease; /* Safari y Chrome */
+    width:100%;
+    }
+    .img-contenedor:hover div {
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    }
+.zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .4s; /* Animation */
+    width: 20px;
+    height: 20px;
+    /* margin: 10 auto; */
+}
+.zoom:hover {
+transform: scale(1.13); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.Images-Container {
+    /* flex-direction: row; */
+    align-self: center;
+}
