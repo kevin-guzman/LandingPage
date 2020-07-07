@@ -1,6 +1,6 @@
 .card {
     border: none;
-    border-radius: 8px; /* 8 */
+    border-radius: 10%; /* 8 */
     background: linear-gradient(to bottom left, #7a3bade8, #4f61b8e0);
     /* margin-top: 30px;
     flex: 1; */
@@ -13,6 +13,7 @@
 .Proyects-Card {
     max-height: 310px;
     max-width: 220px ;
+    
     /* align-self: center; */
 }
 .Proyects-Card-Info {
@@ -63,6 +64,7 @@ transform: scale(1.13); /* (150% zoom - Note: if the zoom is too large, it will 
     display: flex;
     margin: 1%;
     justify-content: center;
+    
     /* flex-direction: row; */
     align-self: center;
 }

@@ -20,7 +20,7 @@ let Card = (props) =>{
         <div 
             className="row center "  
             //className=""
-            style={{justifyContent:'center'}}
+            style={{justifyContent:'center', borderRadius:'50%'}}
             //onDrag={console.log('Wenassss')}
             onClick={console.log('Wenassss')}
         >
@@ -100,6 +100,7 @@ const Styles= {
     image:{
         width:'50%',
         height:'30%',
+        borderRadius:'4%'
     }
 
 }
