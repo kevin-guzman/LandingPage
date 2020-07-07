@@ -1,41 +1,44 @@
 [
     {
+        "title":"SmartHouse",
+        "proyectType":"movil",
+        "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!, remotamente desde el teléfono celular.",
+        "longDescription":"",
+        "im":[
+            "SmartHouse",
+            "SmartHouse1"
+        ],
+        "imageFormat":".png"
+    },
+    {
         "title":"Mapa",
         "proyectType":"movil",
         "description": "Mapa es una aplicacion hecha en React Native la cual te permite añadir un hospital de cierto tipo con solo un punto en el mapa.",
         "longDescription":"La aplicación mapa fue realizada con React Native, dentro de esta se encuentra redux, react navigation, react native paper y react native maps, todo esto para poder permitirle al usuario agrehar puntos en el mpapa en la posición que quiera y poder categorizar el tipo de hospital",
         "im":[
-            "ViewingMarker1",
-            "SmartHouse"
+            "Mapa",
+            "Mapa1",
+            "Mapa2",
+            "Mapa3",
+            "Mapa4"
         ],
         "imageFormat":".png"
     },
     {
         "title":"Servo y temperatura",
         "proyectType":"hardware",
-        "description": "Mediante una interfaz en python, se observa una gráfica en tiempo real de la temperatura y un control para la posición de un motor.",
+        "description": "Este proyecto permite controlar la posicion de un servomotor y además visualizar la temperatura ambiente en una gráfica, ¡todo desde una interfaz gráfica con Python.",
         "longDescription":"Es un proyecto realizado con python y un microcontrolador mbed el cual permite saber la tempera actual gráficada, dentro de su interfaz se encuentra la gráfica de la temperatura actual y una barrita que permite controlar la posición del servomotor.",
         "im":[
-            "ViewingMarker1",
-            "SmartHouse"
-        ],
-        "imageFormat":".png"
-    },
-    {
-        "title":"SmartHouse",
-        "proyectType":"movil",
-        "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!.",
-        "longDescription":"",
-        "im":[
-            "SmartHouse",
-            "SmartHouse"
+            "ServoYTemperatura",
+            "ServoYTemperatura"
         ],
         "imageFormat":".png"
     },
     {
         "title":"Lista de tareas",
         "proyectType":"movil",
-        "description": "Lista de tareas es una app que permite añadir y saber mis tareas actuales",
+        "description": "Lista de tareas es una aplicacion que programar y añadir mis tareas actuales o eventos, esto dependiendo de cada usruario registrado.",
         "longDescription":"Lista de tareas es una app que permite añadir y saber mis tareas actuales, fue realizada en React Native junto con Firebase para el lado del servidor, en ella tenemos un login de usuario y cada usuario tiene sis tareas.",
         "im":[
             "ListaDeTareas",
@@ -55,8 +58,8 @@
         "description": "Soy estudiante activo(séptimo semestre) de tencología en electrónica de la UDFJC.",
         "longDescription":"",
         "im":[
-            "ViewingMarker1",
-            "SmartHouse"
+            "UD",
+            "UD"
         ],
         "imageFormat":".png"
     }

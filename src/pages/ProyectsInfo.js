@@ -3,7 +3,8 @@ import '../styles/Container.css'
 
 let ProyecstInfo = (props) => {
     /* const {data}= props.location
-    const {im} = data */
+    const images = data.im
+    const {imageFormat} = images */
     const [data, setData]= useState(props.location.data)
     const [images, setIma]= useState(props.location.data.im)
     const [imageFormat, setImageFormat]= useState(props.location.data.imageFormat)
