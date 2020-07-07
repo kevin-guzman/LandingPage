@@ -51,7 +51,7 @@ let Card = (props) =>{
                                                     {x.description}
                                                 </p>
                                             </div>
-                                            <div className="Images-Container" style={{ flex:2, margin:1,justifyContent:'center',}}  >
+                                            <div className="Images-Container"   >
                                                 {/* <img   src={AddMarker}  style={Styles.image}/> */}
                                                 <img   src={map}  style={Styles.image} /* width={90} */ />
                                             </div>
@@ -97,14 +97,12 @@ const Styles= {
     },
     divCard:{
         marginLeft: 10,
-        marginRight:10
+        marginRight:10,
     },
     image:{
-        width:'45%',
-        height:'20%',
-        flex:1,
-        alyngSelf:'center',
-        margin:6
+        width:'50%',
+        height:'30%',
+        
     }
 
 }
