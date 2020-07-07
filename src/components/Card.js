@@ -1,13 +1,11 @@
 import React,{useEffect, useState, StyleSheet, Image} from 'react'
-import fondo from '../util/images/Image1.jpg'
-import map from '../util/images/ViewingMarker1.png'
-import AddMarker from '../util/images/AddingMarker.png'
 import './styles/Card.css' 
 import {Link} from 'react-router-dom'
 
 let Card = (props) =>{
     const {Proyects, ProyectsType} = props;
     const [proyects, setProyects]=useState([])
+    const [image, setImage]=useState('')
     useEffect(()=>{
         if (ProyectsType === undefined){
             setProyects(Proyects)
@@ -30,8 +28,8 @@ let Card = (props) =>{
                 proyects.map((x,i)=>{
                     return(
                         
-                        <Link to="/proyects/info"  params={{Val:'Holaa'}} /* className="" */  >
-                            <div className="zoom" style={Styles.card} >
+                        <Link to="/proyects/info"  params={{Val:'Holaa'}} key={i} /* className="" */  >
+                            <div className="zoom" style={Styles.card} key={i} >
                                 <div  
                                     className="card"  
                                     key={i} 
@@ -42,18 +40,18 @@ let Card = (props) =>{
                                         style={Styles.divCard}
                                         
                                     >
-                                        <div /* style={{flex:1, marginTop:10, alignSelf:'center' }} */ >
+                                        <div>
                                             <div style={{flex:1, marginTop:10, alignItems:'center' }} >
                                                 <h1 style={Styles.cardTitle} >
                                                     {x.title}
+                                                    
                                                 </h1>
                                                 <p style={Styles.cardSubTitle} >
                                                     {x.description}
                                                 </p>
                                             </div>
-                                            <div className="Images-Container" style={{ flex:2, margin:1,justifyContent:'center',}}  >
-                                                {/* <img   src={AddMarker}  style={Styles.image}/> */}
-                                                <img   src={map}  style={Styles.image} /* width={90} */ />
+                                            <div className="Images-Container"   >
+                                                <img   src={ require(`../util/images/${x.im}.png`)  /* map */}  style={Styles.image} /* width={90} */ />
                                             </div>
                                         </div>
                                         
@@ -90,21 +88,18 @@ const Styles= {
         alignSelf:'center',
         width:280,
         height:360,
-        marginTop:50,
+        marginTop:0,
         marginLeft:5,
 /*         maxHeight:220,
         maxWidth:190, */
     },
     divCard:{
         marginLeft: 10,
-        marginRight:10
+        marginRight:10,
     },
     image:{
-        width:'45%',
-        height:'20%',
-        flex:1,
-        alyngSelf:'center',
-        margin:6
+        width:'50%',
+        height:'30%',
     }
 
 }
