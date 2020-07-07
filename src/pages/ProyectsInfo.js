@@ -1,16 +1,21 @@
-import React from 'react'
+import React ,{useState} from 'react'
 
 let ProyecstInfo = (props) => {
+    let er = (props)=>{
+        console.log("",props.location.data)
+    }
+    const [data, setData]= useState(props.location.data)
+    
     return(
         <div>
             <p>
-                Hola wee
+                {data.title}
             </p>
             <p>
-                {props.Val}
+                {data.longDescription}
             </p>
             <p>
-                reere
+                
             </p>
         </div>
     )

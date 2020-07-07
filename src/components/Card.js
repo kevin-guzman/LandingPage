@@ -18,17 +18,15 @@ let Card = (props) =>{
     },[props])
     return(
         <div 
-            className="row center "  
-            //className=""
-            style={{justifyContent:'center', borderRadius:'50%'}}
-            //onDrag={console.log('Wenassss')}
+            className="row center "
+            style={{justifyContent:'center',}}
             onClick={console.log('Wenassss')}
         >
             {
                 proyects.map((x,i)=>{
                     return(
                         
-                        <Link to="/proyects/info"  params={{Val:'Holaa'}} key={i} /* className="" */  >
+                        <Link to={{pathname: "/proyects/info", data: x}}  params={{Val:'Holaa'}} key={i} /* className="" */  >
                             <div className="zoom" style={Styles.card} key={i} >
                                 <div  
                                     className="card"  
@@ -86,8 +84,8 @@ const Styles= {
         //backgroundColor:'rgba(100,100,100,0.5)',
         flex:1, 
         alignSelf:'center',
-        width:280,
-        height:360,
+        width:270,
+        height:410,
         marginTop:0,
         marginLeft:5,
 /*         maxHeight:220,
