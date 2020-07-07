@@ -3,9 +3,10 @@
     background: rgb(35,24,116);
     background: linear-gradient(180deg, rgb(69, 25, 99) 0%, rgba(46, 38, 121, 0.747) 100%); 
     /* 180deg, rgba(35,24,116,0.9) 0%, rgba(66,54,178,0.7) 100% */
-    flex: content;
+    /* flex: content; */
     flex-direction: column;
-    height: 100%;
+    /* align-items: center; */
+    /* height: 100%; */
 }
 .Container-Header{
     align-items: center;
@@ -20,18 +21,21 @@
     width: 110pt;
     height: 110pt;
     border-radius: 100%;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-right: 45%;
+    margin-left: 45%;
     
 }
 .Header_Link{
-    margin-right: 32%;
-    margin-left: 32%;
+    margin-right: 20%;
+    margin-left: 20%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     font-size: 80%;
-    margin-top: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .Container-Body{
     display: flex;
@@ -41,16 +45,18 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin: 1%;
     justify-content: flex-end;
     
 }
 .Container-Cards{
-    flex-grow: 18;
+    flex-grow: 20;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-right: 7%;
+
     
 }
 .Social-Icon{

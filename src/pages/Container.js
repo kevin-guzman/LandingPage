@@ -14,9 +14,9 @@ function Container() {
     const [proyectType, setProyectType]= useState('movil')
     return (
             <div className="Container"  >
-                <div className="Header"   >
-                    <h1>Kevin Guzmán</h1>
-                    <img className="Header_Photo" src={Photo} />
+                <div className="Header">
+                    <h1 style={{textAlign:'center'}} >Kevin Guzmán</h1>
+                    <img className="Header_Photo" src={Photo}  />
                     <div className="Header_Link">
                         <button 
                             className="btn" 
