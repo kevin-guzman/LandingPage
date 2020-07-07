@@ -8,6 +8,7 @@ import Twitter from '../util/icons/twitter.svg'
 import Phone from '../util/icons/phone.svg'
 import Proyects from './Proyects'
 import { Link } from 'react-router-dom';
+//import '../styles/BackGround/css/style.css'
 
 function Container() {
     const [proyectType, setProyectType]= useState('movil')
@@ -59,9 +60,9 @@ function Container() {
                     <Proyects
                         proyectType={proyectType}
                     />
-                </div>
+                </div>    
             </div>
-        </div>
+        </div>   
     )
 }
 

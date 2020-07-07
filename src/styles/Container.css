@@ -1,9 +1,11 @@
 .Container{
     display: flex;
     background: rgb(35,24,116);
-    background: linear-gradient(180deg, #231874,#4236B2);
+    background: linear-gradient(180deg, rgb(69, 25, 99) 0%, rgba(46, 38, 121, 0.747) 100%); 
+    /* 180deg, rgba(35,24,116,0.9) 0%, rgba(66,54,178,0.7) 100% */
     flex: content;
     flex-direction: column;
+    height: 100%;
 }
 .Container-Header{
     align-items: center;
@@ -61,12 +63,17 @@
     border: none;
     outline: none;
     cursor: pointer;
-    /* font-size: 15px; */
     font-size: 80%;
     opacity: 1;
     transition: opacity 300ms ease;
-    /* color: white; */
 }
 .touched {
     opacity: 0.5;
 }
+
+
+
+
+
+
+

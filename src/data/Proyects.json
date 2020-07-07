@@ -2,26 +2,31 @@
     {
         "title":"Mapa",
         "proyectType":"movil",
-        "description": "Mapa es una aplicacion muy util porque se utilizó para su abuela malparida xd"
+        "description": "Mapa es una aplicacion hecha en React Native la cual te permite añadir un hospital de cierto tipo con solo tocarlo.",
+        "im":"ViewingMarker1"
     },
     {
         "title":"Servo",
         "proyectType":"hardware",
-        "description": "Servo es un proyecto muy util porque se utilizó para su abuela malparida xd"
+        "description": "Servo es un proyecto muy util porque se utilizó para su abuela malparida xd",
+        "im":"ViewingMarker1"
     },
     {
-        "title":"IOtluz",
+        "title":"SmartHouse",
         "proyectType":"movil",
-        "description": "IotLuz es un proyecto muy util porque se utilizó para su abuela malparida xd"
+        "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!.",
+        "im":"SmartHouse"
     },
     {
         "title":"Listaa de tareas",
         "proyectType":"movil",
-        "description": "Listaa de tareas es un proyecto muy util porque se utilizó para su abuela malparida xd"
+        "description": "Listaa de tareas es un proyecto muy util porque se utilizó para su abuela malparida xd",
+        "im":"ViewingMarker1"
     },
     {
         "title":"Proyecto grado",
         "proyectType":"educacion",
-        "description": "Proyecto de grado es un proyecto muy util porque se utilizó para su abuela malparida xd"
+        "description": "Proyecto de grado es un proyecto muy util porque se utilizó para su abuela malparida xd",
+        "im":"ViewingMarker1"
     }
 ]
