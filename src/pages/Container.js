@@ -13,8 +13,6 @@ import { Link } from 'react-router-dom';
 function Container() {
     const [proyectType, setProyectType]= useState('movil')
     return (
-<<<<<<< HEAD
-        
             <div className="Container"  >
                 <div className="Header"   >
                     <h1>Kevin Guzmán</h1>
@@ -39,33 +37,8 @@ function Container() {
                             <a style={Styles.textButton}>Hardware</a>
                         </button>
                     </div>
-=======
-        <div className="Container">
-            <div className="Container-Header">
-                <h1>Kevin Guzmán</h1>
-                <img className="Header_Photo" src={Photo}/>
-                <div className="Header_Link">
-                    <button 
-                        className="btn" 
-                        onClick={()=>setProyectType('educacion')} 
-                    >
-                        <a style={Styles.textButton}>Educacion</a>
-                    </button>
-                    <button 
-                        className="btn" 
-                        onClick={()=>setProyectType('movil')} 
-                    >
-                        <a style={Styles.textButton}>Desarrollo Movil</a>
-                    </button>
-                    <button 
-                        className="btn" 
-                        onClick={()=>setProyectType('hardware')} 
-                    >
-                        <a style={Styles.textButton}>Hardware</a>
-                    </button>
->>>>>>> 9bf7fe6bd96ed7f3d3a85f9354a1f3c318a89e3b
                 </div>
-            </div>
+            
             <div className="Container-Body">
                 <div className="Container-Social">
                     <a>
@@ -80,7 +53,7 @@ function Container() {
                     <a href="https://twitter.com/keeee_vin">
                         <img className="Social-Icon" src={Twitter}/>
                     </a>
-                    <a href="api.whatsapp.com/send?phone=573057206777">
+                    <a href="https://api.whatsapp.com/send?phone=573057206777">
                         <img className="Social-Icon" src={Phone}/>
                     </a>
                 </div>
@@ -88,9 +61,14 @@ function Container() {
                     <Proyects
                         proyectType={proyectType}
                     />
-                </div>    
+                </div>
             </div>
-        </div>   
+            <div>
+                <p>
+                    Holaa Weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                </p>
+            </div> 
+        </div>  
     )
 }
 
