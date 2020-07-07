@@ -49,7 +49,7 @@ let Card = (props) =>{
                                                 </p>
                                             </div>
                                             <div className="Images-Container"   >
-                                                <img   src={ require(`../util/images/${x.im[0]}`)  /* map */}  style={Styles.image} /* width={90} */ />
+                                                <img   src={ require(`../util/images/${x.im[0]}${x.imageFormat}`)  /* map */}  style={Styles.image} /* width={90} */ />
                                             </div>
                                         </div>
                                         

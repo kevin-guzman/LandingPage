@@ -5,30 +5,8 @@ let ProyecstInfo = (props) => {
     /* const {data}= props.location
     const {im} = data */
     const [data, setData]= useState(props.location.data)
-    const [ima, setIma]= useState(props.location.data.im)
-    /* useEffect(()=>{
-        setData(data)
-    },[]) */
-    let er = (ima)=>{
-        //let images = Object.values(ima)
-        //let images = Object.entries(ima)
-        let images = ima
-        images.map((x,i)=>{
-            return(
-                <div key={i} >
-                    <img   src={ require(`../util/images/${x}.png`)} width={80} />
-
-                </div>
-                
-            )
-            //console.log(`../util/images/${x}.png`)
-        })
-
-        //images[0].map((x)=>{console.log("Values:"+x)})
-        //ima.map()
-    }
-    
-    
+    const [images, setIma]= useState(props.location.data.im)
+    const [imageFormat, setImageFormat]= useState(props.location.data.imageFormat)
     return(
         <div className="Container" style={{alignSelf:'center'}}  >
                 <h1 style={{textAlign:'center', fontSize:40}} >
@@ -38,14 +16,13 @@ let ProyecstInfo = (props) => {
                     {data.longDescription}
                 </p>
                 {
-                    ima.map((x,i)=>{
+                    images.map((x,i)=>{
                         return(
-                            <div key={i} className="Container-Body" >
-                                <img   src={ require(`../util/images/${x}`)} width={80} />
+                            <div key={i} style={{flexDirection:'row'}} >
+                                <img   src={ require(`../util/images/${x}${imageFormat}`)} width={80} />
                             </div>
                             
                         )
-                        //console.log(`../util/images/${x}.png`)
                     })
                 }
         </div>
