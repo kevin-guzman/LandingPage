@@ -41,7 +41,7 @@ let ProyecstInfo = (props) => {
                     ima.map((x,i)=>{
                         return(
                             <div key={i} className="Container-Body" >
-                                <img   src={ require(`../util/images/${x}.png`)} width={80} />
+                                <img   src={ require(`../util/images/${x}`)} width={80} />
                             </div>
                             
                         )
