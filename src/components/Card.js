@@ -1,11 +1,10 @@
-import React,{useEffect, useState, StyleSheet, Image} from 'react'
+import React,{useEffect, useState,} from 'react'
 import './styles/Card.css' 
 import {Link} from 'react-router-dom'
 
 let Card = (props) =>{
     const {Proyects, ProyectsType} = props;
     const [proyects, setProyects]=useState([])
-    const [image, setImage]=useState('')
     useEffect(()=>{
         if (ProyectsType === undefined){
             setProyects(Proyects)
@@ -16,6 +15,9 @@ let Card = (props) =>{
             setProyects(proyectsFiltred)
         }
     },[props])
+    const localStorage = (data) =>{
+        window.localStorage.setItem('data',JSON.stringify(data))
+    }
     return(
         <div 
             className="row center "
@@ -26,7 +28,7 @@ let Card = (props) =>{
                 proyects.map((x,i)=>{
                     return(
                         
-                        <Link to={{pathname: "/proyects/info", data: x}}  params={{Val:'Holaa'}} key={i} /* className="" */  >
+                        <Link to={{pathname: "/proyects/info"}}  params={{Val:'Holaa'}} key={i} onClick={()=>localStorage(x)} >
                             <div className="zoom" style={Styles.card} key={i} >
                                 <div  
                                     className="card"  

@@ -62,8 +62,10 @@
 }
 .Container-phProyects{
     display: flex;
-    margin: 10%;
+    margin: 3%;
     justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .Social-Icon{
     width: 20pt;

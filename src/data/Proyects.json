@@ -3,7 +3,7 @@
         "title":"SmartHouse",
         "proyectType":"movil",
         "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!, remotamente desde el teléfono celular.",
-        "longDescription":"",
+        "longDescription":"SmartHouse es una aplicación desarrollada en React Native, esta fue implementada con readux, react navigation y componentes realizados por el equipo de trabajo.",
         "im":[
             "SmartHouse",
             "SmartHouse1"

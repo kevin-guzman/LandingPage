@@ -2,12 +2,9 @@ import React ,{useState, useEffect} from 'react'
 import '../styles/Container.css'
 
 let ProyecstInfo = (props) => {
-    /* const {data}= props.location
+    const [data, setData]= useState(JSON.parse(window.localStorage.getItem('data')))
     const images = data.im
-    const {imageFormat} = images */
-    const [data, setData]= useState(props.location.data)
-    const [images, setIma]= useState(props.location.data.im)
-    const [imageFormat, setImageFormat]= useState(props.location.data.imageFormat)
+    const imageFormat = data.imageFormat
     return(
         <div className="Container">
             <div className="TextProyect">
@@ -25,7 +22,7 @@ let ProyecstInfo = (props) => {
                     images.map((x,i)=>{
                         return(
                             <div key={i} >
-                                <img   src={ require(`../util/images/${x}${imageFormat}`)} width={200}  />
+                                <img   src={ require(`../util/images/${x}${imageFormat}`)} style={{margin:5}} width={200}  />
                             </div>
                             
                         )
@@ -33,7 +30,8 @@ let ProyecstInfo = (props) => {
                 }
             </div>
         </div>
-    )
+    )    
+
 }
 
 export default ProyecstInfo
