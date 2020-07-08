@@ -29,6 +29,11 @@ let ProyecstInfo = (props) => {
                     })
                 }
             </div>
+            <div className="Container-videoProyect">
+                Video del funcionamiento de la app
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jKW8arnWLSA"  allowfullscreen></iframe>
+            </div>
+            
         </div>
     )    
 
