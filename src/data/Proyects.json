@@ -8,7 +8,8 @@
             "SmartHouse",
             "SmartHouse1"
         ],
-        "imageFormat":".png"
+        "imageFormat":".png",
+        "urlVid":"HhV2wvttyHo"
     },
     {
         "title":"Mapa",
@@ -22,7 +23,8 @@
             "Mapa3",
             "Mapa4"
         ],
-        "imageFormat":".png"
+        "imageFormat":".png",
+        "urlVid":"kZRFVHKlDGM"
     },
     {
         "title":"Servo y temperatura",
@@ -50,7 +52,8 @@
             "ListaDeTareas6",
             "ListaDeTareas7"
         ],
-        "imageFormat":".jpg"
+        "imageFormat":".jpg",
+        "urlVid":"jKW8arnWLSA"
     },
     {
         "title":"Universidad DistritalFrancisco José de Caldas",
