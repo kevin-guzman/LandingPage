@@ -61,14 +61,9 @@
     
 }
 .Container-phProyects{
-    display: flex;
-    flex-grow: 20;
-    margin: 3%;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 10%;
+    flex-wrap: wrap;
 }
 .Container-videoProyect{
     justify-content: center;

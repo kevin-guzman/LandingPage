@@ -17,11 +17,11 @@ let ProyecstInfo = (props) => {
                     {data.longDescription}
                 </p>
             </div>
-            <div className="Container-phProyects" style={Styles.card} >
+            <div className="Container-phProyects"  style={{marginInlineStart:'2%', alignSelf:'center'}} >
                 {
                     images.map((x,i)=>{
                         return(
-                            <div className="zoom" key={i} style={Styles.card} >
+                            <div className="zoom" key={i} style={{...Styles.card}} >
                                 <img style={Styles.card}  src={ require(`../util/images/${x}${imageFormat}`)} /* width={200} */  />
                             </div>
                             
@@ -32,6 +32,11 @@ let ProyecstInfo = (props) => {
             <div className="Container-videoProyect">
                 Video del funcionamiento de la app
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/jKW8arnWLSA"  allowfullscreen></iframe>
+            </div>
+            <div>
+                <p>
+                    .
+                </p>
             </div>
             
         </div>
@@ -45,8 +50,10 @@ const Styles = {
         alignSelf:'center',
         width:230,
         height:400,
-        marginTop:5,
-        marginLeft:20,
+        marginTop:15,
+        marginLeft:16,
+        
+
 /*         maxHeight:220,
         maxWidth:190, */
     },
