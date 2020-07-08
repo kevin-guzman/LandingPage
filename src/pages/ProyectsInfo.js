@@ -17,12 +17,12 @@ let ProyecstInfo = (props) => {
                     {data.longDescription}
                 </p>
             </div>
-            <div className="Container-phProyects">
+            <div className="Container-phProyects" style={Styles.card} >
                 {
                     images.map((x,i)=>{
                         return(
-                            <div key={i} >
-                                <img   src={ require(`../util/images/${x}${imageFormat}`)} style={{margin:5}} width={200}  />
+                            <div className="zoom" key={i} style={Styles.card} >
+                                <img style={Styles.card}  src={ require(`../util/images/${x}${imageFormat}`)} /* width={200} */  />
                             </div>
                             
                         )
@@ -32,6 +32,19 @@ let ProyecstInfo = (props) => {
         </div>
     )    
 
+}
+const Styles = {
+    card:{
+        //backgroundColor:'rgba(100,100,100,0.5)',
+        flex:1, 
+        alignSelf:'center',
+        width:230,
+        height:400,
+        marginTop:5,
+        marginLeft:20,
+/*         maxHeight:220,
+        maxWidth:190, */
+    },
 }
 
 export default ProyecstInfo
