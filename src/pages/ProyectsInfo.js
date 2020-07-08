@@ -9,23 +9,29 @@ let ProyecstInfo = (props) => {
     const [images, setIma]= useState(props.location.data.im)
     const [imageFormat, setImageFormat]= useState(props.location.data.imageFormat)
     return(
-        <div className="Container" style={{alignSelf:'center'}}  >
-                <h1 style={{textAlign:'center', fontSize:40}} >
+        <div className="Container">
+            <div className="TextProyect">
+                
                     {data.title}
-                </h1>
+                
+            </div>
+            <div className="Description">
                 <p>
                     {data.longDescription}
                 </p>
+            </div>
+            <div className="Container-phProyects">
                 {
                     images.map((x,i)=>{
                         return(
-                            <div key={i} style={{flexDirection:'row'}} >
-                                <img   src={ require(`../util/images/${x}${imageFormat}`)} width={80} />
+                            <div key={i} >
+                                <img   src={ require(`../util/images/${x}${imageFormat}`)} width={200}  />
                             </div>
                             
                         )
                     })
                 }
+            </div>
         </div>
     )
 }
