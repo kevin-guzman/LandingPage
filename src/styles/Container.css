@@ -22,9 +22,9 @@
     width: 110pt;
     height: 110pt;
     border-radius: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 45%;
-    margin-left: 45%;
+    margin-left: 42%;
     
 }
 .Header_Link{
@@ -57,7 +57,7 @@
     flex-direction: row;
     justify-content: center;
     margin-right: 7%;
-    padding: 5%;
+    padding: 1%;
     
 }
 .Container-phProyects{

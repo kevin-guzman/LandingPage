@@ -31,9 +31,9 @@ let ProyecstInfo = (props) => {
             </div>
             {
                 data.urlVid != undefined?
-                    <div className="Container-videoProyect">
-                        Video del funcionamiento de la app
-                        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${data.urlVid}`}  allowfullscreen></iframe>
+                    <div className="Container-videoProyect" style={{marginTop: '3%'}} >
+                        !Video demostrativo de la App!
+                        <iframe  allowFullScreen={true} width="560" height="315" src={`https://www.youtube.com/embed/${data.urlVid}`} style={{marginTop: '2%'}} ></iframe>
                     </div>
                 :
                 null

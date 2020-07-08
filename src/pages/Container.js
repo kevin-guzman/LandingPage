@@ -15,7 +15,9 @@ function Container() {
     return (
             <div className="Container"  >
                 <div className="Header">
-                    <h1 style={{textAlign:'center'}} >Kevin Guzmán</h1>
+                    <h1 style={{textAlign:'center', marginTop:'2%'}} >Portafolio de proyectos.</h1>
+                    <p style={{textAlign:'center', fontSize:30}}>Kevin Guzmán</p>
+                    <p style={{textAlign:'center', fontSize:15}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
                     <img className="Header_Photo" src={Photo}  />
                     <div className="Header_Link">
                         <button 

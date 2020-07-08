@@ -3,7 +3,7 @@
         "title":"SmartHouse",
         "proyectType":"movil",
         "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!, remotamente desde el teléfono celular.",
-        "longDescription":"SmartHouse es una aplicación desarrollada en React Native, esta fue implementada con readux, react navigation y componentes realizados por el equipo de trabajo.",
+        "longDescription":"SmartHouse es una aplicación desarrollada en React Native, esta fue implementada con redux, react navigation, react hooks y componentes realizados por el equipo de trabajo. Actualmete es un proyecto en desarrollo que permitirá varial la  luza de las habitaciones de la casa con tan solo deslizar un slider.",
         "im":[
             "SmartHouse",
             "SmartHouse1"
@@ -15,7 +15,7 @@
         "title":"Mapa",
         "proyectType":"movil",
         "description": "Mapa es una aplicacion hecha en React Native la cual te permite añadir un hospital de cierto tipo con solo un punto en el mapa.",
-        "longDescription":"La aplicación mapa fue realizada con React Native, dentro de esta se encuentra redux, react navigation, react native paper y react native maps, todo esto para poder permitirle al usuario agrehar puntos en el mpapa en la posición que quiera y poder categorizar el tipo de hospital",
+        "longDescription":"La aplicación mapa fue realizada con React Native, con redux, react navigation, react native paper, react hooks y react native maps, todo esto para poder permitirle al usuario agregar puntos en el mapa en la posición que quiera y poder categorizar el tipo de hospital",
         "im":[
             "Mapa",
             "Mapa1",
@@ -30,9 +30,8 @@
         "title":"Servo y temperatura",
         "proyectType":"hardware",
         "description": "Este proyecto permite controlar la posicion de un servomotor y además visualizar la temperatura ambiente en una gráfica, ¡todo desde una interfaz gráfica con Python.",
-        "longDescription":"Es un proyecto realizado con python y un microcontrolador mbed el cual permite saber la tempera actual gráficada, dentro de su interfaz se encuentra la gráfica de la temperatura actual y una barrita que permite controlar la posición del servomotor.",
+        "longDescription":"Este es un proyecto realizado con python y un microcontrolador mbed el cual permite saber la tempera actual en una gráfica, dentro de su interfaz se encuentra la gráfica de la temperatura actual y un slider que permite controlar la posición del servomotor.",
         "im":[
-            "ServoYTemperatura",
             "ServoYTemperatura"
         ],
         "imageFormat":".png"
@@ -41,7 +40,7 @@
         "title":"Lista de tareas",
         "proyectType":"movil",
         "description": "Lista de tareas es una aplicacion que programar y añadir mis tareas actuales o eventos, esto dependiendo de cada usruario registrado.",
-        "longDescription":"Lista de tareas es una app que permite añadir y saber mis tareas actuales, fue realizada en React Native junto con Firebase para el lado del servidor, en ella tenemos un login de usuario y cada usuario tiene sis tareas.",
+        "longDescription":"Lista de tareas es una app que permite añadir y saber mis tareas actuales, fue realizada en React Native con redux, react navigation, react native paper y junto con Firebase para el lado del servidor. En ella tenemos un login de usuario y cada usuario tiene sus tareas.",
         "im":[
             "ListaDeTareas",
             "ListaDeTareas1",
@@ -59,9 +58,8 @@
         "title":"Universidad DistritalFrancisco José de Caldas",
         "proyectType":"educacion",
         "description": "Soy estudiante activo(séptimo semestre) de tencología en electrónica de la UDFJC.",
-        "longDescription":"",
+        "longDescription":"Soy estudinate de sétimo semestre de la carrera tencología en electrónica, me hace falta sólo un semestre para finalizar la carrera para posteriormente estudiar ingeniería en control electrónico.",
         "im":[
-            "UD",
             "UD"
         ],
         "imageFormat":".png"
