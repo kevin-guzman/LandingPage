@@ -77,7 +77,7 @@ function Container() {
 const Styles={
     textButton:{
         color:'#DCDAEF',
-        fontSize:'100%'
+        fontSize:27
     }
 }
 
