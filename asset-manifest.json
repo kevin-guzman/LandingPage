@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LandingPage/static/css/main.1c22a5f4.chunk.css",
+    "main.css": "/LandingPage/static/css/main.a1425cb0.chunk.css",
     "main.js": "/LandingPage/static/js/main.11b5e1ad.chunk.js",
     "main.js.map": "/LandingPage/static/js/main.11b5e1ad.chunk.js.map",
     "runtime-main.js": "/LandingPage/static/js/runtime-main.d34ee446.js",
@@ -9,10 +9,10 @@
     "static/js/2.d1914aaa.chunk.js": "/LandingPage/static/js/2.d1914aaa.chunk.js",
     "static/js/2.d1914aaa.chunk.js.map": "/LandingPage/static/js/2.d1914aaa.chunk.js.map",
     "index.html": "/LandingPage/index.html",
-    "precache-manifest.bbe6a5811d70ab88ba13619d326b5e84.js": "/LandingPage/precache-manifest.bbe6a5811d70ab88ba13619d326b5e84.js",
+    "precache-manifest.d978842c098eab191326b20360693bd3.js": "/LandingPage/precache-manifest.d978842c098eab191326b20360693bd3.js",
     "service-worker.js": "/LandingPage/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/LandingPage/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.1c22a5f4.chunk.css.map": "/LandingPage/static/css/main.1c22a5f4.chunk.css.map",
+    "static/css/main.a1425cb0.chunk.css.map": "/LandingPage/static/css/main.a1425cb0.chunk.css.map",
     "static/js/2.d1914aaa.chunk.js.LICENSE.txt": "/LandingPage/static/js/2.d1914aaa.chunk.js.LICENSE.txt",
     "static/media/ListaDeTareas.jpg": "/LandingPage/static/media/ListaDeTareas.400b4583.jpg",
     "static/media/ListaDeTareas1.jpg": "/LandingPage/static/media/ListaDeTareas1.359cfc50.jpg",
@@ -43,7 +43,7 @@
     "static/js/runtime-main.d34ee446.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.d1914aaa.chunk.js",
-    "static/css/main.1c22a5f4.chunk.css",
+    "static/css/main.a1425cb0.chunk.css",
     "static/js/main.11b5e1ad.chunk.js"
   ]
 }
