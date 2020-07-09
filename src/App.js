@@ -17,7 +17,7 @@ let App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/LandingPage" component={Home}/>
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/proyects/info"  component={ProyectsInfo} />
         <Route path="*" />
