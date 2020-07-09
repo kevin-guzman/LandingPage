@@ -15,9 +15,8 @@ function Container() {
     return (
             <div className="Container"  >
                 <div className="Header">
-                    <h1 style={{textAlign:'center', marginTop:'2%'}} >Portafolio de proyectos.</h1>
-                    <p style={{textAlign:'center', fontSize:30}}>Kevin Guzmán</p>
-                    <p style={{textAlign:'center', fontSize:15}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
+                    <h1 style={{textAlign:'center', marginTop:'2%',color:'#DCDAEF'}} >Portafolio de proyectos.</h1>
+                    <p style={{textAlign:'center', fontSize:30,color:'#DCDAEF'}}>Kevin Guzmán</p>
                     <img className="Header_Photo" src={Photo}  />
                     <div className="Header_Link">
                         <button 
@@ -66,9 +65,7 @@ function Container() {
                 </div>
             </div>
             <div>
-                <p>
-                            .
-                </p>
+                <p style={{textAlign:'center', fontSize:15,color:'#DCDAEF', marginTop:10}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
             </div> 
         </div>  
     )
@@ -77,7 +74,7 @@ function Container() {
 const Styles={
     textButton:{
         color:'#DCDAEF',
-        fontSize:40
+        fontSize:16
     }
 }
 
