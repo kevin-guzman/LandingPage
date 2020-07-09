@@ -1,6 +1,6 @@
 .card {
     border: none;
-    border-radius: 10%; /* 8 */
+    border-radius: 4%; /* 8 */
     background: linear-gradient(to bottom left, #7a3bade8, #4f61b8e0);
     /* margin-top: 30px;
     flex: 1; */
