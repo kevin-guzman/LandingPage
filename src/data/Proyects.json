@@ -39,7 +39,7 @@
     {
         "title":"Lista de tareas",
         "proyectType":"movil",
-        "description": "Lista de tareas es una aplicacion que programar y añadir mis tareas actuales o eventos, esto dependiendo de cada usruario registrado.",
+        "description": "Lista de tareas es una aplicacion que programar y añadir mis tareas actuales o eventos, esto dependiendo de cada usuario registrado.",
         "longDescription":"Lista de tareas es una app que permite añadir y saber mis tareas actuales, fue realizada en React Native con redux, react navigation, react native paper y junto con Firebase para el lado del servidor. En ella tenemos un login de usuario y cada usuario tiene sus tareas.",
         "im":[
             "ListaDeTareas",
