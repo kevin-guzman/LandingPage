@@ -1,10 +1,30 @@
 import React ,{useState, useEffect} from 'react'
 import '../styles/Container.css'
+//import DataJson from '../data/CurrentProyect.json'
+//import ProyectData from '../data/Proyects.json'
 
 let ProyecstInfo = (props) => {
     const [data, setData]= useState(JSON.parse(window.localStorage.getItem('data')))
+    const [index, setIndex] = useState(parseInt(window.localStorage.getItem('index')))
     const images = data.im
     const imageFormat = data.imageFormat
+
+    useEffect(()=>{
+        
+        /* console.log('Other')
+        console.log(data)
+        console.log('Index')
+        console.log(ProyectData[index]) */
+        console.log('InEffect')
+        if (data !== undefined){
+            window.localStorage.setItem('data',JSON.stringify(data))
+            console.log('In if')
+        }else{
+            console.log('No funcionó :C')
+        }
+        
+    },[])
+
     return(
         <div className="Container">
             <div className="TextProyect">

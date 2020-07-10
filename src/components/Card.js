@@ -2,6 +2,7 @@ import React,{useEffect, useState,} from 'react'
 import './styles/Card.css' 
 import {Link} from 'react-router-dom'
 
+
 let Card = (props) =>{
     const {Proyects, ProyectsType} = props;
     const [proyects, setProyects]=useState([])
@@ -15,8 +16,11 @@ let Card = (props) =>{
             setProyects(proyectsFiltred)
         }
     },[props])
-    const localStorage = (data) =>{
+    const localStorage = (data, index) =>{
+        //console.log('In Beforeeeeeeeeeeeeeeeeeeeeeeeee')
         window.localStorage.setItem('data',JSON.stringify(data))
+        //window.localStorage.setItem('index',`${index}`)
+        
     }
     return(
         <div 
@@ -28,7 +32,7 @@ let Card = (props) =>{
                 proyects.map((x,i)=>{
                     return(
                         
-                        <Link to={{pathname: "/proyects/info"}}  params={{Val:'Holaa'}} key={i} onClick={()=>localStorage(x)} >
+                        <Link to={{pathname: "/proyects/info"}}  key={i} onClick={()=>localStorage(x,i)} >
                             <div className="zoom" style={Styles.card} key={i} >
                                 <div  
                                     className="card"  

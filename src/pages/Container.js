@@ -65,7 +65,7 @@ function Container() {
                 </div>
             </div>
             <div>
-                <p style={{textAlign:'center', fontSize:15,color:'#DCDAEF', marginTop:10}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
+            <p style={{textAlign:'center', fontSize:15,color:'#DCDAEF', marginTop:10}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
             </div> 
         </div>  
     )

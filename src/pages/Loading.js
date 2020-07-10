@@ -3,7 +3,7 @@ import '../styles/Loading.css'
 
 let Loading = () =>{
     return(
-        <div class="loader">Loading...</div>
+        <div className="loader">Loading...</div>
     )
 }
 
