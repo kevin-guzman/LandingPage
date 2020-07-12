@@ -5,8 +5,6 @@ import { Link, Redirect } from 'react-router-dom'
 
 let ProyecstInfo = (props) => {
     const [data, setData]= useState(JSON.parse(window.localStorage.getItem('data'))) //JSON.parse(window.localStorage.getItem('data'))
-    //const [index, setIndex] = useState(parseInt(window.localStorage.getItem('index')))
-    
 
     if (data === undefined || data === null || data === '' ){
         return  <Redirect push to="/LandingPage" ></Redirect>  
