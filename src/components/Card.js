@@ -24,7 +24,6 @@ let Card = (props) =>{
         <div 
             className="row center "
             style={{justifyContent:'center',}}
-            onClick={console.log('Wenassss')}
         >
             {
                 proyects.map((x,i)=>{
