@@ -15,13 +15,13 @@ import NotFound from './pages/NotFound';
 
 let App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Switch>
         <Route exact path="/LandingPage" component={Home}/>
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/proyects/info"  component={ProyectsInfo} />
-        <Route path="*" />
-        <Route component={NotFound} />
+        <Route path="*" component={Home} />
+        {/* <Route component={NotFound} /> */}
       </Switch>
     </BrowserRouter>
   );
