@@ -16,10 +16,8 @@ let Card = (props) =>{
             setProyects(proyectsFiltred)
         }
     },[props])
-    const localStorage = (data, index) =>{
-        //console.log('In Beforeeeeeeeeeeeeeeeeeeeeeeeee')
+    const localStorage = (data) =>{
         window.localStorage.setItem('data',JSON.stringify(data))
-        //window.localStorage.setItem('index',`${index}`)
         
     }
     return(
@@ -32,7 +30,7 @@ let Card = (props) =>{
                 proyects.map((x,i)=>{
                     return(
                         
-                        <Link to={{pathname: "/proyects/info"}}  key={i} onClick={()=>localStorage(x,i)} >
+                        <Link to={{pathname: "/proyects/info"}}  key={i} onClick={()=>localStorage(x)} >
                             <div className="zoom" style={Styles.card} key={i} >
                                 <div  
                                     className="card"  
