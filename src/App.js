@@ -8,18 +8,14 @@ import {
   Link,
   BrowserRouter
 } from "react-router-dom";
-import Proyects from '../src/pages/Proyects'
-import Home from './pages/Container'
-import ProyectsInfo from '../src/pages/ProyectsInfo';
+import Home from './pages/Home'
 import NotFound from './pages/NotFound';
 
 let App = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter  >
       <Switch>
         <Route exact path="/LandingPage" component={Home}/>
-        <Route exact path="/proyects" component={Proyects} />
-        <Route exact path="/proyects/info"  component={ProyectsInfo} />
         <Route path="*" component={Home} />
         {/* <Route component={NotFound} /> */}
       </Switch>

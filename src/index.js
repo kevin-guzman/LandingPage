@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Card from './components/Card'
-import ProyectsPage from '../src/pages/Proyects'
 import 'bootstrap/dist/css/bootstrap.css'
 
 const container = document.getElementById('root')
@@ -18,9 +16,6 @@ const elementApp =(
   <App/>
 )
 
-const elementProyects = (
-  <ProyectsPage/>
-)
 
 ReactDOM.render( elementApp , container);
 

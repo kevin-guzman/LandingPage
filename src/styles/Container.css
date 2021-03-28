@@ -1,13 +1,23 @@
 .Container{
     display: flex;
     /* background: rgb(35,24,116); */
-    background-image: linear-gradient(180deg, rgb(69, 25, 99) 0%, rgba(46, 38, 121, 0.747) 100%); 
+    /* background-image: linear-gradient(180deg,#851ff3 0%, #c114c4 100%);  */
+    /* background-color: #333; */
     /* 180deg, rgba(35,24,116,0.9) 0%, rgba(66,54,178,0.7) 100% */
     /* flex: content;  */
     flex-direction: column;
     /* align-items: center; */
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
 }
 .Container-Header{
     align-items: center;
@@ -18,15 +28,53 @@
     font-size: 160%;
     color: #DCDAEF;
 }
-.Header_Photo{
-    width: 110pt;
-    height: 110pt;
-    border-radius: 100%;
-    margin-top: 1%;
-    margin-right: 45%;
-    margin-left: 44%;
-    
+.Header{
+    display: flex;
+    flex-direction: row;
 }
+.HeaderLeft{
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blanchedalmond; */
+}
+.HeaderRight{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+}
+.HeaderRightTittle{
+    color: white;
+    width: 280px;
+    align-self: flex-end;
+}
+.Header-tittle{
+    font-size: 60px;
+    /* background: -webkit-linear-gradient(#851ff3, #c114c4); */
+    background: -webkit-linear-gradient(#851ff3, #dca3a3);
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Header-name{
+    font-size: 45px;
+    background: -webkit-linear-gradient(#851ff3, #dca3a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .Header_Link{
     margin-right: 20%;
     margin-left: 20%;
@@ -40,7 +88,9 @@
 }
 .Container-Body{
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
+    flex-direction: column;
+    margin-top: 30px;
 }
 .Container-Social{
     flex-grow: 1;
@@ -77,6 +127,12 @@
     width: 20pt;
     height: 20pt;
     margin-bottom: 20pt;
+    margin-top: 4px;
+    background: white;
+    /* color: white;
+    color-adjust: white;
+    background-color: white;
+    color */
 }
 .btn {
     padding: 10px 10px;
@@ -107,9 +163,24 @@
     color: #DCDAEF;
     font-family: sans-serif;
 }
-
-
-
-
-
-
+.ContactInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.PersonalDescription{
+    color: aliceblue;
+    width: 360px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Header_Photo{
+    width: 135pt;
+    height: 120pt;
+    border-radius: 100%;
+    margin-top: 1%;
+    margin-left: 20px;
+    /* margin-right: 45%;
+    margin-left: 44%; */
+    
+}

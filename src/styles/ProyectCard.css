@@ -1,0 +1,89 @@
+.CardContainer{
+  display: flex;
+  flex-direction: row;
+  /* width: 1100px; */
+  background-color: transparent;
+  align-self: center;
+  /* border-color: rgb(154, 45, 188); */
+  border-color: transparent;
+
+  /* height: 200px; */
+  /* align-self: center;
+  border-color: rgb(154, 45, 188);
+  border-width: 1000px; */
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.InfoContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  width: 290px;
+}
+.IconCard{
+  padding-inline: 20px;
+  align-self: center;
+}
+.CardTittle{
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+}
+.CardDescription{
+  color: aliceblue;
+  text-align: left;
+}
+.CardImages{
+  display: flex; 
+  /* flex-direction: row; */
+  /* overflow: scroll; */
+  justify-content: center;
+  flex: 1;
+  margin-right: 30px;
+
+}
+.CardImage{
+  align-self: center;
+  margin-left: 10px;
+  width: 80px;
+  height: 120px;
+}
+.ChevronIcon{
+  width: 30px;
+  background-color: bisque;
+  fill: bisque;
+}
+.ChevronIconRotated{
+  background-color: bisque;
+  fill: bisque;
+  width: 30px;
+  transform: rotate(180deg);
+}
+.AditionalInfoContainer{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* width: 900px; */
+  align-self: center;
+  margin-top: 15px;
+}
+.LongDescriptionContainer{
+  flex: 2;
+  margin-left: 100px;
+  /* margin-left: 50px; */
+}
+.LongDescription{
+  /* color: rgb(137, 73, 162); */
+  color: aliceblue;
+  font-weight: 500;
+}
+.VideoContainer{
+  display: flex;
+  /* width: 900px; */
+  align-self: center;
+}
+.Video{
+  border-color: transparent;
+}

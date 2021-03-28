@@ -1,0 +1,28 @@
+.ProgressBar{
+  /* height: 200px; */
+  max-height: 10px;
+  /* width: 100px; */
+  margin-top: -15px;
+  fill: white;
+}
+.FillColor{
+  color: red;
+  fill: red;
+  background-image: red;
+  background-color: red;
+}
+.SkillContainer{
+  align-self: center;
+  width: 60%;
+  margin-top: 8px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.SkillText{
+  color: white;
+}
+.TextContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
