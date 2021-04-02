@@ -1,5 +1,19 @@
 [
     {
+        "title":"AppPeliculas",
+        "longDescription":"AppPeliculas es una aplicación desarrollada en React Native, esta fue implementada con context, react navigation, react native paper, react hooks y componentes. Esta app permite al usuario escoger entre una emorme variedad de películas las cuales están actualizadas y pueden ser flitradas por categorías o simplemente buscadas.",
+        "urlVid":"1KZoKSDZ738",
+        "tags":["React Native"],
+        "urlImg":[
+            "13mf-7LJANSDhweRvsDvqNLEH86kcAb07",
+            "1Sb64x6QEH_pBQYodEFUSuB77jdjer7iA",
+            "1yFhoR5wr0risWMVRqo-cmsiKGKwNq3Zz",
+            "12vaRK8EQVUSukviyLHniwOFpMxjFJw1Z",
+            "1Zw1ipvO23tjms5sMVsvChuiQu7xKIvAF",
+            "1cAiMK76dX3k24VwfzYC5U3wNdiczJ61K"
+        ]
+    },
+    {
         "title":"SmartHouse",
         "description": "SmartHouse es un proyecto el cual permite ¡variar la intensidad de luz de las habitaciones de tu casa!, remotamente desde el teléfono celular.",
         "longDescription":"SmartHouse es una aplicación desarrollada en React Native, esta fue implementada con redux, react navigation, react hooks y componentes realizados por el equipo de trabajo. Actualmete es un proyecto en desarrollo que permitirá varial la  luza de las habitaciones de la casa con tan solo deslizar un slider.",
@@ -47,20 +61,6 @@
             "1ZJwUyT_gKxpS2879jqxSl3TXZF4e5aJX",
             "143gupDJRo99O6221ewKg5T9E4GXmfVa-",
             "17StIDj5UiFUsd6MANaFm5clwG3J0GfEm"
-        ]
-    },
-    {
-        "title":"AppPeliculas",
-        "longDescription":"AppPeliculas es una aplicación desarrollada en React Native, esta fue implementada con context, react navigation, react native paper, react hooks y componentes. Esta app permite al usuario escoger entre una emorme variedad de películas las cuales están actualizadas y pueden ser flitradas por categorías o simplemente buscadas.",
-        "urlVid":"1KZoKSDZ738",
-        "tags":["React Native"],
-        "urlImg":[
-            "13mf-7LJANSDhweRvsDvqNLEH86kcAb07",
-            "1Sb64x6QEH_pBQYodEFUSuB77jdjer7iA",
-            "1yFhoR5wr0risWMVRqo-cmsiKGKwNq3Zz",
-            "12vaRK8EQVUSukviyLHniwOFpMxjFJw1Z",
-            "1Zw1ipvO23tjms5sMVsvChuiQu7xKIvAF",
-            "1cAiMK76dX3k24VwfzYC5U3wNdiczJ61K"
         ]
     }
 ]

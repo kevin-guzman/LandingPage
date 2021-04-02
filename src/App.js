@@ -11,16 +11,18 @@ import {
 import Home from './pages/Home'
 import NotFound from './pages/NotFound';
 
-let App = () => {
+const App = () => {
   return (
-    <BrowserRouter  >
+    <Home/>
+  );
+}
+
+{/* <BrowserRouter  >
       <Switch>
         <Route exact path="/LandingPage" component={Home}/>
         <Route path="*" component={Home} />
-        {/* <Route component={NotFound} /> */}
+        <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
-  );
-}
+    </BrowserRouter> */}
 
 export default App;

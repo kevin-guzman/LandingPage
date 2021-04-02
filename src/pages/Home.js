@@ -13,6 +13,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 import Loading from './Loading'
 import {Carousel} from 'react-bootstrap'
 import {getJSON} from '../functions/getJSON'
+import {isMobile} from 'react-device-detect';
 
 const skills = [
     {name:'Node JS', value:56},
@@ -30,7 +31,6 @@ const social_networks = [
     {icon:Facebook, href:'https://www.facebook.com/kevin.guzman.1000'},
     {icon:Twitter, href:'https://twitter.com/keeee_vin'},
     {icon:Phone, href:'https://api.whatsapp.com/send?phone=573057206777'},
-
 ]
 
 const Home = () => {
@@ -38,6 +38,20 @@ const Home = () => {
     const [proyects, setProyects]=useState([])
     const [isLoading, setIsLoading]= useState(true)
     const [currentProyect, setCurrentProyect] = useState('SmartHouse')
+    const [shouldResize, setShouldResize] = useState(false)
+    useEffect(() => { 
+
+    updateDimensions();
+
+    window.addEventListener('resize', updateDimensions);
+    return () => window.removeEventListener('resize', updateDimensions);
+    }, [])
+    const updateDimensions = () => {
+        const width = window.innerWidth
+        console.log('Width-->', width);
+        setShouldResize(width < 930 || isMobile)
+    }
+    console.log('Width->', shouldResize);
     useEffect(()=>{
         setIsLoading(true)
         setInterval(()=>{
@@ -53,7 +67,7 @@ const Home = () => {
     },[proyectsFilter])
     const SkillProgress = ({name='', color='', percent=0}) => {
         return(
-            <button onClick={()=>setProyectsFilter(name)} className='SkillContainer' >
+            <button autoFocus={proyectsFilter === name} onClick={()=>setProyectsFilter(name)} className={!shouldResize ? 'SkillContainer' : 'SkillContainerResized'} >
                 <div className='TextContainer' >
                     <p className='SkillText' >{name}</p>
                     <p className='SkillText' >{percent}%</p>
@@ -100,8 +114,8 @@ const Home = () => {
         )
     }
     return (
-            <div className="Container"  >
-                <div className="Header">
+            <body className="Container"  >
+                <div className={!shouldResize ? 'Header' : 'HeaderResized'}>
                     <div className="HeaderLeft"  >
                         <h1 className="Header-tittle" >Portafolio de proyectos</h1>
                         {/* <p className="Header-name">Kevin Guzmán</p> */}
@@ -128,7 +142,7 @@ const Home = () => {
                             <img className="Header_Photo" src={Photo}  />
                         </div>
                     </div>
-                    <div className="HeaderRight" >
+                    <div className={!shouldResize ? "HeaderRight" : 'HeaderRightResized'} >
                         <title className='HeaderRightTittle' >Habilidades</title>
                         {skills.map((value, index)=>(
                             <SkillProgress name={value.name} percent={value.value} key={index.toString()} />
@@ -153,7 +167,7 @@ const Home = () => {
             {/* <div>
             <p style={{textAlign:'center', fontSize:15,color:'#DCDAEF', marginTop:10}}>kevinskate.kg@gmail.com <br></br> +57 305 720 6777 </p>
             </div>  */}
-        </div>  
+        </body>  
     )
 }
 

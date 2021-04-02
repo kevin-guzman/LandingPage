@@ -18,6 +18,13 @@
   background-color: transparent;
   border-color: transparent;
 }
+.SkillContainerResized{
+  align-self: center;
+  width: 45%;
+  margin-top: 18px;
+  background-color: transparent;
+  border-color: transparent;
+}
 .SkillText{
   color: white;
 }
